@@ -1,13 +1,22 @@
 a=10
-name=surendra
+name=DevOps
 
-echo a=${a}
+# Print Variable
+echo a = $a
 echo name = ${name}
 
-date1 = date +%F
+#
+#DATE=2023-04-18
+DATE=$(date +%F)
+echo Today date is ${DATE}
 
-todays date2 = $(date1)
+ARTH=$((2-3*4/2))
 
-sum = 2+555+595+516+61
+echo ARTH = ${ARTH}
 
-echo sum1 = $((sum))
+# Special Variables for Inputs
+echo Script Name - $0
+echo First Argument - $1
+echo Second Argument - $2
+echo All Argument - $*
+echo No of Arguments - $#
