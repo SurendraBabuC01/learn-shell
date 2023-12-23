@@ -8,4 +8,6 @@ date = date+%F
 
 todays date = $(date)
 
-sum = ((2+555+595+516+61))
+sum = 2+555+595+516+61
+
+echo sum1 = $((sum))
