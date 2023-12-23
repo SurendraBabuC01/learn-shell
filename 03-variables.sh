@@ -4,7 +4,7 @@ name=surendra
 echo a=${a}
 echo name = ${name}
 
-date = date+%F
+date = date +%F
 
 todays date = $(date)
 
