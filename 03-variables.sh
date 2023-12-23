@@ -20,3 +20,7 @@ echo First Argument - $1
 echo Second Argument - $2
 echo All Argument - $*
 echo No of Arguments - $#
+
+sum=$((55+65-455*52/355))
+
+echo ${sum}
