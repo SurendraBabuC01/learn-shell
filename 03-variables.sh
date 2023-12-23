@@ -23,4 +23,4 @@ echo No of Arguments - $#
 
 sum=$((55+65-455*52/355))
 
-echosum is ${sum}
+echo sum is ${sum}
