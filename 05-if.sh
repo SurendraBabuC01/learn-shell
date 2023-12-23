@@ -1,7 +1,7 @@
 fruit=$1
 quantity=$2
 
-if [${fruit}=="banana"]
+if [ ${fruit} == "banana" ]
 then
   echo fruit is ${fruit}
 else
